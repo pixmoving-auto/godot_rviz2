@@ -1,4 +1,4 @@
-[gd_scene load_steps=45 format=2]
+[gd_scene load_steps=47 format=2]
 
 [ext_resource path="res://Vehicle/RX450h/RX450h.tscn" type="PackedScene" id=1]
 [ext_resource path="res://EgoVehicle.gd" type="Script" id=2]
@@ -10,6 +10,8 @@
 [ext_resource path="res://TrajectoryMesh.gd" type="Script" id=8]
 [ext_resource path="res://Camera.gd" type="Script" id=9]
 [ext_resource path="res://DynamicObjectMesh.gd" type="Script" id=10]
+[ext_resource path="res://icon-39.png" type="Texture" id=11]
+[ext_resource path="res://Icon-39.gd" type="Script" id=12]
 [ext_resource path="res://TrafficLightMesh.gd" type="Script" id=13]
 [ext_resource path="res://Vehicle/HeadBeamLight.gd" type="Script" id=14]
 [ext_resource path="res://Menu.gd" type="Script" id=17]
@@ -155,7 +157,7 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.44026, 0.82268, 0 )
 shape = SubResource( 1 )
 
 [node name="VehicleBody" parent="EgoVehicle/EgoVehicleKinematicBody" instance=ExtResource( 1 )]
-transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 1.41018, 0, 0 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.41018, 0, 0 )
 
 [node name="Camera" type="Spatial" parent="EgoVehicle"]
 script = ExtResource( 9 )
@@ -241,6 +243,8 @@ text = "PointCloud Map"
 [node name="NightModeCheckButton" type="CheckButton" parent="Menu"]
 margin_top = 40.0
 focus_mode = 0
+pressed = true
+action_mode = 0
 enabled_focus_mode = 0
 text = "Night Mode"
 
@@ -304,6 +308,13 @@ valign = 1
 [node name="Hand" type="Sprite" parent="VehicleStatus/ConsoleMeter"]
 position = Vector2( 0, 50 )
 texture = ExtResource( 23 )
+
+[node name="Icon-39" type="Sprite" parent="VehicleStatus"]
+position = Vector2( 466, -39 )
+scale = Vector2( 0.0787039, 0.090507 )
+texture = ExtResource( 11 )
+centered = false
+script = ExtResource( 12 )
 
 [connection signal="toggled" from="Menu/PointCloudMapMeshCheckButton" to="PointCloudMapMesh" method="_on_CheckButton_toggled"]
 [connection signal="toggled" from="Menu/NightModeCheckButton" to="EgoVehicle" method="_on_NightModeCheckButton_toggled"]
