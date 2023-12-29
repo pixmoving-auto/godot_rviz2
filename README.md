@@ -16,15 +16,19 @@
 
 1. Build godot from source
    1. install pre-requirements following [here](https://docs.godotengine.org/en/stable/development/compiling/compiling_for_x11.html#distro-specific-one-liners) by godot.
-
-      ```bash
-      sudo apt-get install build-essential scons pkg-config libx11-dev libxcursor-dev libxinerama-dev libgl1-mesa-dev libglu-dev libasound2-dev libpulse-dev libudev-dev libxi-dev libxrandr-dev yasm
-      ```
-
+   
    1. clone godot_rviz2
-
+    
       ```bash
       git clone https://github.com/yukkysaito/godot_rviz2.git --recursive
+      ```
+
+   1. installation of dependent tools
+
+      ```bash
+      cd scripts
+      sudo chmod +x install_libraries.sh
+      ./install_libraries.sh
       ```
 
    1. build godot with autoware and ros2 components.
