@@ -26,7 +26,7 @@
    1. installation of dependent tools
 
       ```bash
-      cd scripts
+      cd godot_rviz2/scripts
       sudo chmod +x install_libraries.sh
       ./install_libraries.sh
       ```
@@ -36,6 +36,7 @@
       ```bash
       cd godot_rviz2/godot
       source <autoware_path>/install/setup.bash
+      source ~/.bashrc
       scons platform=linux -j8 custom_modules=../godot_rviz2
       ```
 
@@ -44,6 +45,7 @@
    1. Run Godot
 
       ```bash
+      cd godot_rviz2/godot
       ./bin/godot.x11.tools.64
       ```
    1. Click run button on top right on Godot GUI.
