@@ -13,8 +13,20 @@ sudo apt-get install -y build-essential scons pkg-config libx11-dev libxcursor-d
 # Check if installation was successful
 if [ $? -eq 0 ]; then
     echo -e "\e[32mDependencies installed successfully.\e[0m"
-    exit 0
 else
     echo -e "\e[31mFailed to install dependencies.\e[0m"
     exit 1
 fi
+
+# Install Godot 3
+sudo apt-get install -y godot3
+
+# Check if installation was successful
+if [ $? -eq 0 ]; then
+    echo -e "\e[32mGodot 3 installed successfully.\e[0m"
+else
+    echo -e "\e[31mFailed to install Godot 3.\e[0m"
+    exit 1
+fi
+
+# Continue with the rest of your script...
