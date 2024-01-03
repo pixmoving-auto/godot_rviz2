@@ -177,7 +177,7 @@ fallback/0 = SubResource( 48 )
 font_path = "res://fonts/SourceCodePro-Light.otf"
 
 [sub_resource type="DynamicFont" id=50]
-size = 120
+size = 80
 outline_size = 3
 font_data = SubResource( 52 )
 
@@ -406,20 +406,19 @@ script = ExtResource( 33 )
 
 [node name="Brake" type="Sprite" parent="VehicleStatus"]
 light_mask = 2
-position = Vector2( -353.767, -44.3125 )
+position = Vector2( -355.767, -44.3125 )
 scale = Vector2( 0.206152, 0.206152 )
 texture = ExtResource( 29 )
 script = ExtResource( 36 )
 
 [node name="ProgressBar" type="ProgressBar" parent="VehicleStatus/Brake"]
-margin_left = -71.0
+margin_left = -98.0
 margin_top = 137.0
-margin_right = 86.0
+margin_right = 96.0
 margin_bottom = 215.0
 size_flags_vertical = 1
 custom_fonts/font = SubResource( 49 )
 step = 1.0
-page = 10.0
 
 [node name="Gear" type="Sprite" parent="VehicleStatus"]
 position = Vector2( -412.389, -43.75 )
@@ -441,28 +440,27 @@ uppercase = true
 
 [node name="robobus-39" type="Sprite" parent="VehicleStatus"]
 self_modulate = Color( 0.601562, 0.601562, 0.601562, 1 )
-position = Vector2( -512, -65 )
+position = Vector2( -472, -40 )
 scale = Vector2( 0.118519, 0.121519 )
 texture = ExtResource( 17 )
-centered = false
 script = ExtResource( 40 )
 
 [node name="ProgressBar" type="ProgressBar" parent="VehicleStatus/robobus-39"]
-margin_left = 135.159
-margin_top = 402.997
-margin_right = 524.159
-margin_bottom = 600.997
+margin_left = -202.499
+margin_top = 197.5
+margin_right = 202.501
+margin_bottom = 329.5
 custom_fonts/font = SubResource( 50 )
 step = 1.0
-value = 80.0
 
 [node name="power" type="Sprite" parent="VehicleStatus/robobus-39"]
 self_modulate = Color( 0.501961, 0.478431, 0.478431, 1 )
-position = Vector2( 286.874, 181.042 )
+position = Vector2( 0, -16.4585 )
 scale = Vector2( 0.683402, 0.66653 )
 texture = ExtResource( 10 )
 
 [node name="Throttle" type="Sprite" parent="VehicleStatus"]
+modulate = Color( 0.984375, 0.984375, 0.984375, 1 )
 self_modulate = Color( 0.682353, 0.670588, 0.670588, 1 )
 position = Vector2( -292, -43 )
 scale = Vector2( 0.21875, 0.21875 )

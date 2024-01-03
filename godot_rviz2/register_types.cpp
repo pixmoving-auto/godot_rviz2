@@ -31,6 +31,9 @@
 
 #include "gear_report.hpp"
 #include "throttle_report.hpp"
+#include "battery_report.hpp"
+#include "brake_report.hpp"  
+
 
 void register_godot_rviz2_types()
 {
@@ -45,8 +48,12 @@ void register_godot_rviz2_types()
   ClassDB::register_class<SteeringReport>();
   ClassDB::register_class<VelocityReport>();
   ClassDB::register_class<Parameter>();
-  ClassDB:: register_class<GearReport>();
-  ClassDB:: register_class<ActuationStatus>();
+  ClassDB::register_class<GearReport>();
+  ClassDB::register_class<BmsReportBattery>();
+  ClassDB::register_class<ActuationStatusBrake>();
+  ClassDB::register_class<ActuationStatusThrottle>();
+
+
 
   
 }

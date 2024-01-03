@@ -6,19 +6,19 @@
 #include "core/variant.h"
 #include "topic_subscriber.hpp"
 
-#include <pix_robobus_driver_msgs/msg/vcu_report1.hpp>
+#include <pix_robobus_driver_msgs/msg/bms_report.hpp>
 
 
-class VcuReport1 : public Reference 
+class BmsReportBattery : public Reference 
 {
-    GDCLASS(VcuReport1, Reference);
-    TOPIC_SUBSCRIBER(VcuReport1, pix_robobus_driver_msgs::msg::VcuReport1);
+    GDCLASS(BmsReportBattery, Reference);
+    TOPIC_SUBSCRIBER(BmsReportBattery, pix_robobus_driver_msgs::msg::BmsReport);
 
 public:
     int get_battery();
 
-    VcuReport1() = default;
-    ~VcuReport1() = default;
+    BmsReportBattery() = default;
+    ~BmsReportBattery() = default;
 
 protected:
     static void _bind_methods();

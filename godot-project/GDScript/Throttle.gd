@@ -1,6 +1,6 @@
 extends Sprite
 
-var throttle_report = ActuationStatus.new()
+var throttle_report = ActuationStatusThrottle.new()
 var throttle_scale = 5.3/180.0
 
 func _ready():

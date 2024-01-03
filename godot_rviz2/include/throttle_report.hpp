@@ -9,16 +9,16 @@
 #include <tier4_vehicle_msgs/msg/actuation_status_stamped.hpp>
 
 
-class ActuationStatus : public Reference 
+class ActuationStatusThrottle : public Reference 
 {
-    GDCLASS(ActuationStatus, Reference);
-    TOPIC_SUBSCRIBER(ActuationStatus, tier4_vehicle_msgs::msg::ActuationStatusStamped);
+    GDCLASS(ActuationStatusThrottle, Reference);
+    TOPIC_SUBSCRIBER(ActuationStatusThrottle, tier4_vehicle_msgs::msg::ActuationStatusStamped);
 
 public:
     float get_throttle();
 
-    ActuationStatus() = default;
-    ~ActuationStatus() = default;
+    ActuationStatusThrottle() = default;
+    ~ActuationStatusThrottle() = default;
 
 protected:
     static void _bind_methods();
