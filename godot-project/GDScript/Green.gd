@@ -21,7 +21,6 @@ func get_traffic_light_state() -> bool:
 	# 这里简单地返回一个假值来模拟
 	return false
 
-# Called every frame. 'delta' 是自上一帧以来经过的时间。
 func _process(delta: float) -> void:
 	# 每帧都检查绿灯状态并更新图标可见性
 	is_traffic_light_green = get_traffic_light_state()

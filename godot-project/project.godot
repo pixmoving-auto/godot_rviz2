@@ -15,8 +15,8 @@ _global_script_class_icons={
 [application]
 
 config/name="Robobus_Rviz2"
-run/main_scene="res://Main.tscn"
-config/icon="res://icon.png"
+run/main_scene="res://scenes/Main.tscn"
+config/icon="res://icon/icon.png"
 
 [input]
 
@@ -33,4 +33,4 @@ common/enable_pause_aware_picking=true
 [rendering]
 
 quality/filters/msaa=2
-environment/default_environment="res://default_env.tres"
+environment/default_environment="res://scenes/default_env.tres"

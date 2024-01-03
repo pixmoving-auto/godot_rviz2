@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/robobus_icon-04.svg-31e9679b3350fd0fac64207f2e3b456c.stex"
+path="res://.import/robobus-39.png-59e81b6a9b4cf2c2108e88fa9a83b282.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://robobus_icon-04.svg"
-dest_files=[ "res://.import/robobus_icon-04.svg-31e9679b3350fd0fac64207f2e3b456c.stex" ]
+source_file="res://icon/robobus-39.png"
+dest_files=[ "res://.import/robobus-39.png-59e81b6a9b4cf2c2108e88fa9a83b282.stex" ]
 
 [params]
 

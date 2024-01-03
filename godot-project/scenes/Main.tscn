@@ -1,43 +1,45 @@
-[gd_scene load_steps=67 format=2]
+[gd_scene load_steps=71 format=2]
 
-[ext_resource path="res://Vehicle/RX450h/RX450h.tscn" type="PackedScene" id=1]
-[ext_resource path="res://EgoVehicle.gd" type="Script" id=2]
-[ext_resource path="res://Main.gd" type="Script" id=3]
-[ext_resource path="res://RoadSurfaceMesh.gd" type="Script" id=4]
-[ext_resource path="res://RoadMarkerMesh.gd" type="Script" id=5]
-[ext_resource path="res://PointCloudMapMesh.gd" type="Script" id=6]
-[ext_resource path="res://ObstacleSegmentationMesh.gd" type="Script" id=7]
-[ext_resource path="res://TrajectoryMesh.gd" type="Script" id=8]
-[ext_resource path="res://Camera.gd" type="Script" id=9]
-[ext_resource path="res://DynamicObjectMesh.gd" type="Script" id=10]
-[ext_resource path="res://icon-39.png" type="Texture" id=11]
-[ext_resource path="res://Icon-39.gd" type="Script" id=12]
-[ext_resource path="res://TrafficLightMesh.gd" type="Script" id=13]
+[ext_resource path="res://GDScript/TrajectoryMesh.gd" type="Script" id=1]
+[ext_resource path="res://GDScript/ObstacleSegmentationMesh.gd" type="Script" id=2]
+[ext_resource path="res://GDScript/PointCloudMapMesh.gd" type="Script" id=3]
+[ext_resource path="res://GDScript/RoadMarkerMesh.gd" type="Script" id=4]
+[ext_resource path="res://GDScript/RoadSurfaceMesh.gd" type="Script" id=5]
+[ext_resource path="res://GDScript/Main.gd" type="Script" id=6]
+[ext_resource path="res://GDScript/EgoVehicle.gd" type="Script" id=7]
+[ext_resource path="res://Vehicle/RX450h/RX450h.tscn" type="PackedScene" id=8]
+[ext_resource path="res://GDScript/Camera.gd" type="Script" id=9]
+[ext_resource path="res://icon/power.png" type="Texture" id=10]
+[ext_resource path="res://icon/traffic_light.png" type="Texture" id=11]
+[ext_resource path="res://GDScript/TrafficLightMesh.gd" type="Script" id=12]
+[ext_resource path="res://fonts/SourceCodePro-Light.otf" type="DynamicFontData" id=13]
 [ext_resource path="res://Vehicle/HeadBeamLight.gd" type="Script" id=14]
-[ext_resource path="res://icon_9ms77zmmn39/traffic_light.png" type="Texture" id=15]
-[ext_resource path="res://icon_9ms77zmmn39/Red.png" type="Texture" id=16]
-[ext_resource path="res://Menu.gd" type="Script" id=17]
-[ext_resource path="res://TrafficLightRecognitionMesh.gd" type="Script" id=18]
-[ext_resource path="res://Steering.gd" type="Script" id=19]
-[ext_resource path="res://steering.png" type="Texture" id=20]
-[ext_resource path="res://console_meter.png" type="Texture" id=21]
-[ext_resource path="res://SourceCodePro-Light.otf" type="DynamicFontData" id=22]
-[ext_resource path="res://console_meter_hand.png" type="Texture" id=23]
-[ext_resource path="res://ConsoleMeter.gd" type="Script" id=24]
-[ext_resource path="res://VectorMap.gd" type="Script" id=25]
-[ext_resource path="res://PathMesh.gd" type="Script" id=26]
-[ext_resource path="res://icon_9ms77zmmn39/green.png" type="Texture" id=27]
-[ext_resource path="res://icon_9ms77zmmn39/yellow.png" type="Texture" id=28]
-[ext_resource path="res://icon_9ms77zmmn39/dianliang.png" type="Texture" id=29]
-[ext_resource path="res://icon_9ms77zmmn39/chache.png" type="Texture" id=30]
-[ext_resource path="res://icon_9ms77zmmn39/dangwei.png" type="Texture" id=31]
-[ext_resource path="res://Dangwei.gd" type="Script" id=33]
-[ext_resource path="res://Yellow.gd" type="Script" id=34]
-[ext_resource path="res://Chache.gd" type="Script" id=35]
-[ext_resource path="res://Red.gd" type="Script" id=36]
-[ext_resource path="res://Dianliang.gd" type="Script" id=37]
-[ext_resource path="res://TrafficLight.gd" type="Script" id=38]
-[ext_resource path="res://Green.gd" type="Script" id=39]
+[ext_resource path="res://GDScript/Steering.gd" type="Script" id=15]
+[ext_resource path="res://icon/console_meter_hand.png" type="Texture" id=16]
+[ext_resource path="res://icon/robobus-39.png" type="Texture" id=17]
+[ext_resource path="res://GDScript/DynamicObjectMesh.gd" type="Script" id=18]
+[ext_resource path="res://icon/Red.png" type="Texture" id=19]
+[ext_resource path="res://icon/green.png" type="Texture" id=20]
+[ext_resource path="res://icon/yellow.png" type="Texture" id=21]
+[ext_resource path="res://GDScript/VectorMap.gd" type="Script" id=22]
+[ext_resource path="res://GDScript/Red.gd" type="Script" id=23]
+[ext_resource path="res://icon/steering.png" type="Texture" id=24]
+[ext_resource path="res://icon/console_meter.png" type="Texture" id=25]
+[ext_resource path="res://GDScript/ConsoleMeter.gd" type="Script" id=26]
+[ext_resource path="res://GDScript/Menu.gd" type="Script" id=27]
+[ext_resource path="res://GDScript/TrafficLight.gd" type="Script" id=28]
+[ext_resource path="res://icon/brake.png" type="Texture" id=29]
+[ext_resource path="res://GDScript/PathMesh.gd" type="Script" id=30]
+[ext_resource path="res://GDScript/TrafficLightRecognitionMesh.gd" type="Script" id=31]
+[ext_resource path="res://icon/gear.png" type="Texture" id=32]
+[ext_resource path="res://GDScript/Yellow.gd" type="Script" id=33]
+[ext_resource path="res://GDScript/Green.gd" type="Script" id=34]
+[ext_resource path="res://GDScript/Gear.gd" type="Script" id=35]
+[ext_resource path="res://GDScript/Brake.gd" type="Script" id=36]
+[ext_resource path="res://icon/throttle.png" type="Texture" id=37]
+[ext_resource path="res://icon/throttle_hand.png" type="Texture" id=38]
+[ext_resource path="res://GDScript/Throttle.gd" type="Script" id=39]
+[ext_resource path="res://GDScript/battery.gd" type="Script" id=40]
 
 [sub_resource type="BoxShape" id=1]
 extents = Vector3( 2.40455, 0.804875, 1.07238 )
@@ -150,30 +152,46 @@ resource_name = "mesh"
 [sub_resource type="DynamicFont" id=33]
 size = 80
 use_filter = true
-font_data = ExtResource( 22 )
+font_data = ExtResource( 13 )
 
-[sub_resource type="StyleBoxFlat" id=37]
-bg_color = Color( 0.988235, 0.00784314, 0.00784314, 1 )
+[sub_resource type="DynamicFontData" id=51]
+font_path = "res://fonts/SourceCodePro-Light.otf"
 
-[sub_resource type="StyleBoxFlat" id=38]
+[sub_resource type="DynamicFont" id=49]
+size = 50
+outline_size = 1
+font_data = SubResource( 51 )
+
+[sub_resource type="DynamicFontData" id=48]
 
 [sub_resource type="DynamicFontData" id=42]
+font_path = "res://fonts/SourceCodePro-Light.otf"
 
 [sub_resource type="DynamicFont" id=43]
-size = 24
+size = 65
 outline_size = 3
 font_data = SubResource( 42 )
+fallback/0 = SubResource( 48 )
 
-[sub_resource type="StyleBoxFlat" id=40]
-bg_color = Color( 0.105882, 0.862745, 0.0196078, 1 )
+[sub_resource type="DynamicFontData" id=52]
+font_path = "res://fonts/SourceCodePro-Light.otf"
 
-[sub_resource type="StyleBoxFlat" id=41]
+[sub_resource type="DynamicFont" id=50]
+size = 120
+outline_size = 3
+font_data = SubResource( 52 )
+
+[sub_resource type="DynamicFont" id=53]
+size = 50
+outline_size = 1
+use_mipmaps = true
+font_data = ExtResource( 13 )
 
 [node name="Main" type="Spatial"]
-script = ExtResource( 3 )
+script = ExtResource( 6 )
 
 [node name="EgoVehicle" type="Spatial" parent="."]
-script = ExtResource( 2 )
+script = ExtResource( 7 )
 
 [node name="EgoVehicleKinematicBody" type="KinematicBody" parent="EgoVehicle"]
 
@@ -187,7 +205,7 @@ script = ExtResource( 14 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.44026, 0.82268, 0 )
 shape = SubResource( 1 )
 
-[node name="VehicleBody" parent="EgoVehicle/EgoVehicleKinematicBody" instance=ExtResource( 1 )]
+[node name="VehicleBody" parent="EgoVehicle/EgoVehicleKinematicBody" instance=ExtResource( 8 )]
 transform = Transform( 0.999583, -0.0288986, 0, 0.0288986, 0.999582, 0, 0, 0, 1, 0, 0, -0.065 )
 
 [node name="Camera" type="Spatial" parent="EgoVehicle"]
@@ -206,62 +224,61 @@ far = 300.0
 [node name="PointCloudMapMesh" type="MeshInstance" parent="."]
 material_override = SubResource( 12 )
 mesh = SubResource( 4 )
-script = ExtResource( 6 )
+script = ExtResource( 3 )
 
 [node name="ObstacleSegmentationMesh" type="MeshInstance" parent="."]
 material_override = SubResource( 13 )
 mesh = SubResource( 10 )
 skeleton = NodePath("../EgoVehicle")
-script = ExtResource( 7 )
+script = ExtResource( 2 )
 
 [node name="VectorMap" type="Spatial" parent="."]
-script = ExtResource( 25 )
+script = ExtResource( 22 )
 
 [node name="RoadSurfaceMesh" type="MeshInstance" parent="VectorMap"]
 material_override = SubResource( 17 )
 mesh = SubResource( 16 )
 skeleton = NodePath("../..")
-script = ExtResource( 4 )
+script = ExtResource( 5 )
 
 [node name="RoadMarkerMesh" type="MeshInstance" parent="VectorMap"]
 material_override = SubResource( 19 )
 mesh = SubResource( 18 )
 skeleton = NodePath("../RoadSurfaceMesh")
-script = ExtResource( 5 )
+script = ExtResource( 4 )
 
 [node name="TrafficLightMesh" type="MeshInstance" parent="VectorMap"]
 material_override = SubResource( 30 )
 mesh = SubResource( 29 )
-script = ExtResource( 13 )
+script = ExtResource( 12 )
 
 [node name="PathDrivableAreaMesh" type="MeshInstance" parent="."]
 material_override = SubResource( 34 )
 mesh = SubResource( 35 )
-script = ExtResource( 26 )
+script = ExtResource( 30 )
 
 [node name="TrajectoryMesh" type="MeshInstance" parent="."]
 material_override = SubResource( 24 )
 mesh = SubResource( 23 )
-script = ExtResource( 8 )
+script = ExtResource( 1 )
 
 [node name="DynamicObjectMesh" type="MeshInstance" parent="."]
 material_override = SubResource( 26 )
 mesh = SubResource( 27 )
-script = ExtResource( 10 )
+script = ExtResource( 18 )
 
 [node name="TrafficLightRecognitionMesh" type="MeshInstance" parent="."]
 material_override = SubResource( 32 )
 mesh = SubResource( 31 )
 skeleton = NodePath("../VectorMap")
-script = ExtResource( 18 )
+script = ExtResource( 31 )
 
 [node name="DirectionalLight" type="DirectionalLight" parent="."]
 transform = Transform( 1, 0, 0, 0, -0.866026, 0.5, 0, -0.5, -0.866026, 0, 1.77694, 0 )
-visible = false
 light_specular = 0.0
 
 [node name="Menu" type="Control" parent="."]
-script = ExtResource( 17 )
+script = ExtResource( 27 )
 
 [node name="PointCloudMapMeshCheckButton" type="CheckButton" parent="Menu"]
 margin_right = 76.0
@@ -339,20 +356,20 @@ alignment = 1
 [node name="Steering" type="Sprite" parent="VehicleStatus"]
 position = Vector2( -72, -86 )
 scale = Vector2( 0.5, 0.5 )
-texture = ExtResource( 20 )
-script = ExtResource( 19 )
+texture = ExtResource( 24 )
+script = ExtResource( 15 )
 
 [node name="ConsoleMeter" type="Sprite" parent="VehicleStatus"]
 position = Vector2( 82, -108 )
 scale = Vector2( 0.5, 0.5 )
-texture = ExtResource( 21 )
-script = ExtResource( 24 )
+texture = ExtResource( 25 )
+script = ExtResource( 26 )
 
 [node name="VelocityLabel" type="Label" parent="VehicleStatus/ConsoleMeter"]
-margin_left = -210.0
-margin_top = 58.0
+margin_left = -212.0
+margin_top = 56.0
 margin_right = 216.0
-margin_bottom = 185.0
+margin_bottom = 184.0
 custom_colors/font_color = Color( 0.321569, 0.321569, 0.321569, 1 )
 custom_fonts/font = SubResource( 33 )
 text = "0Km/h"
@@ -361,95 +378,111 @@ valign = 1
 
 [node name="Hand" type="Sprite" parent="VehicleStatus/ConsoleMeter"]
 position = Vector2( 0, 50 )
-texture = ExtResource( 23 )
+texture = ExtResource( 16 )
 
 [node name="TrafficLight" type="Sprite" parent="VehicleStatus"]
 position = Vector2( 463, -44.9999 )
 scale = Vector2( 0.425, 0.425 )
-texture = ExtResource( 15 )
-script = ExtResource( 38 )
+texture = ExtResource( 11 )
+script = ExtResource( 28 )
 
-[node name="Green" type="Sprite" parent="VehicleStatus"]
-position = Vector2( 440, -45 )
-scale = Vector2( 0.0968749, 0.0968749 )
-texture = ExtResource( 27 )
-script = ExtResource( 39 )
-
-[node name="Red" type="Sprite" parent="VehicleStatus"]
-position = Vector2( 486, -45 )
-scale = Vector2( 0.0962502, 0.0962502 )
-texture = ExtResource( 16 )
-script = ExtResource( 36 )
-
-[node name="Yellow" type="Sprite" parent="VehicleStatus"]
-position = Vector2( 463, -45 )
-scale = Vector2( 0.0965624, 0.0965624 )
-texture = ExtResource( 28 )
+[node name="Green" type="Sprite" parent="VehicleStatus/TrafficLight"]
+position = Vector2( -54.1177, -0.000244141 )
+scale = Vector2( 0.227941, 0.227941 )
+texture = ExtResource( 20 )
 script = ExtResource( 34 )
 
-[node name="Chache" type="Sprite" parent="VehicleStatus"]
+[node name="Red" type="Sprite" parent="VehicleStatus/TrafficLight"]
+position = Vector2( 54.1177, -0.000244141 )
+scale = Vector2( 0.226471, 0.226471 )
+texture = ExtResource( 19 )
+script = ExtResource( 23 )
+
+[node name="Yellow" type="Sprite" parent="VehicleStatus/TrafficLight"]
+position = Vector2( 0, -0.000244141 )
+scale = Vector2( 0.227206, 0.227206 )
+texture = ExtResource( 21 )
+script = ExtResource( 33 )
+
+[node name="Brake" type="Sprite" parent="VehicleStatus"]
 light_mask = 2
 position = Vector2( -353.767, -44.3125 )
 scale = Vector2( 0.206152, 0.206152 )
-texture = ExtResource( 30 )
-script = ExtResource( 35 )
+texture = ExtResource( 29 )
+script = ExtResource( 36 )
 
-[node name="ProgressBar" type="ProgressBar" parent="VehicleStatus/Chache"]
+[node name="ProgressBar" type="ProgressBar" parent="VehicleStatus/Brake"]
 margin_left = -71.0
 margin_top = 137.0
 margin_right = 86.0
-margin_bottom = 178.0
-custom_styles/fg = SubResource( 37 )
-custom_styles/bg = SubResource( 38 )
+margin_bottom = 215.0
+size_flags_vertical = 1
+custom_fonts/font = SubResource( 49 )
 step = 1.0
 page = 10.0
-value = 20.0
 
-[node name="Dangwei" type="Sprite" parent="VehicleStatus"]
+[node name="Gear" type="Sprite" parent="VehicleStatus"]
 position = Vector2( -412.389, -43.75 )
 scale = Vector2( 0.225, 0.225 )
-texture = ExtResource( 31 )
-script = ExtResource( 33 )
+texture = ExtResource( 32 )
+script = ExtResource( 35 )
 
-[node name="Label" type="Label" parent="VehicleStatus/Dangwei"]
-margin_left = -87.0
-margin_top = 88.0
-margin_right = 91.0
-margin_bottom = 195.0
-size_flags_horizontal = 0
-size_flags_vertical = 0
-size_flags_stretch_ratio = 10.0
+[node name="GearLabel" type="Label" parent="VehicleStatus/Gear"]
+margin_left = -87.16
+margin_top = 110.0
+margin_right = 92.84
+margin_bottom = 192.0
+custom_colors/font_color = Color( 0.541176, 0.541176, 0.541176, 1 )
 custom_fonts/font = SubResource( 43 )
 text = "Gear"
 align = 1
 valign = 1
 uppercase = true
-lines_skipped = 1
 
-[node name="Icon-39" type="Sprite" parent="VehicleStatus"]
+[node name="robobus-39" type="Sprite" parent="VehicleStatus"]
 self_modulate = Color( 0.601562, 0.601562, 0.601562, 1 )
 position = Vector2( -512, -65 )
 scale = Vector2( 0.118519, 0.121519 )
-texture = ExtResource( 11 )
+texture = ExtResource( 17 )
 centered = false
-script = ExtResource( 12 )
+script = ExtResource( 40 )
 
-[node name="Dianliang" type="Sprite" parent="VehicleStatus/Icon-39"]
+[node name="ProgressBar" type="ProgressBar" parent="VehicleStatus/robobus-39"]
+margin_left = 135.159
+margin_top = 402.997
+margin_right = 524.159
+margin_bottom = 600.997
+custom_fonts/font = SubResource( 50 )
+step = 1.0
+value = 80.0
+
+[node name="power" type="Sprite" parent="VehicleStatus/robobus-39"]
 self_modulate = Color( 0.501961, 0.478431, 0.478431, 1 )
 position = Vector2( 286.874, 181.042 )
 scale = Vector2( 0.683402, 0.66653 )
-texture = ExtResource( 29 )
-script = ExtResource( 37 )
+texture = ExtResource( 10 )
 
-[node name="ProgressBar" type="ProgressBar" parent="VehicleStatus/Icon-39/Dianliang"]
-margin_left = -222.233
-margin_top = 333.349
-margin_right = 166.767
-margin_bottom = 431.349
-custom_styles/fg = SubResource( 40 )
-custom_styles/bg = SubResource( 41 )
+[node name="Throttle" type="Sprite" parent="VehicleStatus"]
+self_modulate = Color( 0.682353, 0.670588, 0.670588, 1 )
+position = Vector2( -292, -43 )
+scale = Vector2( 0.21875, 0.21875 )
+texture = ExtResource( 37 )
+script = ExtResource( 39 )
+
+[node name="ProgressBar" type="ProgressBar" parent="VehicleStatus/Throttle"]
+margin_left = -91.0
+margin_top = 123.0
+margin_right = 91.0
+margin_bottom = 197.0
+custom_fonts/font = SubResource( 53 )
 step = 1.0
-value = 80.0
+
+[node name="ThrottleHand" type="Sprite" parent="VehicleStatus/Throttle"]
+modulate = Color( 0.976471, 0.0352941, 0.0352941, 1 )
+self_modulate = Color( 1, 0, 0, 1 )
+position = Vector2( 0, 50.2859 )
+scale = Vector2( 0.939683, 0.939683 )
+texture = ExtResource( 38 )
 
 [connection signal="toggled" from="Menu/PointCloudMapMeshCheckButton" to="PointCloudMapMesh" method="_on_CheckButton_toggled"]
 [connection signal="toggled" from="Menu/NightModeCheckButton" to="EgoVehicle" method="_on_NightModeCheckButton_toggled"]

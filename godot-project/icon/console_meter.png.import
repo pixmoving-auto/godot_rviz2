@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/dianliang.png-95e237a81d7b0a82a29f68ab37c627db.stex"
+path="res://.import/console_meter.png-0859d873df2997ef4c03930176c16506.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://icon_9ms77zmmn39/dianliang.png"
-dest_files=[ "res://.import/dianliang.png-95e237a81d7b0a82a29f68ab37c627db.stex" ]
+source_file="res://icon/console_meter.png"
+dest_files=[ "res://.import/console_meter.png-0859d873df2997ef4c03930176c16506.stex" ]
 
 [params]
 

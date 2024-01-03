@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/steering.png-0cb55dbae047fe9916f4e369ac8dc8cb.stex"
+path="res://.import/traffic_light.png-cdf864072c8bbd94282910a194dd78c9.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://steering.png"
-dest_files=[ "res://.import/steering.png-0cb55dbae047fe9916f4e369ac8dc8cb.stex" ]
+source_file="res://icon/traffic_light.png"
+dest_files=[ "res://.import/traffic_light.png-cdf864072c8bbd94282910a194dd78c9.stex" ]
 
 [params]
 

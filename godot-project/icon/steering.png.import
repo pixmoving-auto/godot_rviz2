@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/green.png-f6a4e142fc2120c1ea16be08aa5af379.stex"
+path="res://.import/steering.png-04f5d0dde822863d34140085e739f761.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://icon_9ms77zmmn39/green.png"
-dest_files=[ "res://.import/green.png-f6a4e142fc2120c1ea16be08aa5af379.stex" ]
+source_file="res://icon/steering.png"
+dest_files=[ "res://.import/steering.png-04f5d0dde822863d34140085e739f761.stex" ]
 
 [params]
 

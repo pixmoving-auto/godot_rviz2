@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Red.png-a3e53f9c256cea59421b33d310cd81e7.stex"
+path="res://.import/throttle_hand.png-c574a4a45314b1c30d76e7d6a64a0c66.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://icon_9ms77zmmn39/Red.png"
-dest_files=[ "res://.import/Red.png-a3e53f9c256cea59421b33d310cd81e7.stex" ]
+source_file="res://icon/throttle_hand.png"
+dest_files=[ "res://.import/throttle_hand.png-c574a4a45314b1c30d76e7d6a64a0c66.stex" ]
 
 [params]
 

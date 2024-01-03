@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/traffic_light.png-6cfb9cc247382c894db5b5a1f8d640fe.stex"
+path="res://.import/brake.png-1c3203fb663a8dc3016d8644839adb48.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://icon_9ms77zmmn39/traffic_light.png"
-dest_files=[ "res://.import/traffic_light.png-6cfb9cc247382c894db5b5a1f8d640fe.stex" ]
+source_file="res://icon/brake.png"
+dest_files=[ "res://.import/brake.png-1c3203fb663a8dc3016d8644839adb48.stex" ]
 
 [params]
 

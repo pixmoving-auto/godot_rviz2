@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/dangwei.png-3c96ebc6a36161272ca45930372f2cc3.stex"
+path="res://.import/console_meter_hand.png-5b5c7eca532fd5d8378aeda5de1cd8f9.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://icon_9ms77zmmn39/dangwei.png"
-dest_files=[ "res://.import/dangwei.png-3c96ebc6a36161272ca45930372f2cc3.stex" ]
+source_file="res://icon/console_meter_hand.png"
+dest_files=[ "res://.import/console_meter_hand.png-5b5c7eca532fd5d8378aeda5de1cd8f9.stex" ]
 
 [params]
 

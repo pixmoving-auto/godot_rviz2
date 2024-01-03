@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/console_meter_hand.png-28b8b5ced0142604f8cd845a1ebfabbb.stex"
+path="res://.import/Off.png-ae6050e2512856661da4f905e9494521.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://console_meter_hand.png"
-dest_files=[ "res://.import/console_meter_hand.png-28b8b5ced0142604f8cd845a1ebfabbb.stex" ]
+source_file="res://icon/Off.png"
+dest_files=[ "res://.import/Off.png-ae6050e2512856661da4f905e9494521.stex" ]
 
 [params]
 
